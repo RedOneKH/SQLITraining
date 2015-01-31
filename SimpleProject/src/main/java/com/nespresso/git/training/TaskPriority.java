@@ -16,6 +16,5 @@ public enum TaskPriority {
     private TaskPriority(int k) {
         this.k = k;
     }
-    
 //    abstract void print();
 }

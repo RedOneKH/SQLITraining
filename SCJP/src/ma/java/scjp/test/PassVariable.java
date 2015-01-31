@@ -12,6 +12,7 @@ public class PassVariable {
     
 
     public static void main(String [] args){
+    	
         if((4 ^ k) == 2)
             System.out.println("(4 ^ k) == 1 return true");
 //        System.out.println("Spliter : "+"\""+"ABC".split("")[0]+"\"");
@@ -25,7 +26,6 @@ public class PassVariable {
             System.out.println("Person is employee");
         modifyPrimitiveVariable(Int);
         System.out.println("Int After : "+Int); //No Change
-        "".in
         modifyReferenceVariable(person);
         System.out.println("Name of p After : "+person.getName()); //Change
 

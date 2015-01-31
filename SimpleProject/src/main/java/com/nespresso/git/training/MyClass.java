@@ -28,10 +28,14 @@ public class MyClass {
         List<Object> emptyList = Collections.emptyList();
         Collections.frequency(list, new Integer(2));
         
-        
+        String [] tabOfString = {"hhhh", "aaaa", "dddd", "fffff"};
+        Iterator<String> stringIterator = iterator(tabOfString);
+        while(stringIterator.hasNext()){
+        	System.out.println(stringIterator.next());
+        }
     }
     
-    public Iterator<String> iterator(final String [] string){
+    public static Iterator<String> iterator(final String [] string){
         return new Iterator<String>() {
             int index = 0;
             @Override
