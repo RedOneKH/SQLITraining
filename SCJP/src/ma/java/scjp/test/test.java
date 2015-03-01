@@ -20,7 +20,7 @@ public class test
 		System.out.println("Inside Integer...");
 	}
 
-	public void printNumberType(final short s)
+	public static void printNumberType(final short s)
 	{
 		System.out.println("Inside Short...");
 	}

@@ -1,4 +1,4 @@
-package ma.java.scjp.test;
+package ma.java.scjp.test.generics.collections;
 
 import java.util.*;
 
