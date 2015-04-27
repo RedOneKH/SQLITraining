@@ -7,6 +7,7 @@ public class ObjectOriented
 	public static void main(final String[] args)
 	{
 		final Vehicle v = new Car();
+		v.printSound();
 		//		final Bike b = (Bike) v;
 
 		//		v.printSound();

@@ -13,7 +13,7 @@ public class AnotherTest implements Serializable{
 	}
 	public static void main(String[] args) {
 		short s = 1;
-		ma.java.scjp.test.test.printNumberType(s);
+		ma.java.scjp.test.general.test.printNumberType(s);
 		List sss= new ArrayList<>();
 		
 	}
